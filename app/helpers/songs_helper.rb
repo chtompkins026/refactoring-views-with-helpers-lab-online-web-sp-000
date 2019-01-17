@@ -1,11 +1,11 @@
 module SongsHelper
   
-  def artist_name(song)
+  def artist_name
     self.artist 
   end 
   
    def artist_name=(song)
-    song.artist =  
+    self.artist = song.artist 
   end 
   
 end
